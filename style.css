@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: lifecraft;
+    src: url(IMG/LifeCraft_Font.ttf);
+}
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    --primary: #1d348267;
+    --secondary: rgba(255, 255, 255, 0); 
+}
+
+body {
+
+    background: linear-gradient(180deg, var(--primary), var(--secondary)), url(IMG/VQbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+#omega {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+#left-sct {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mainheader {
+
+    font-family: lifecraft;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0px 0px 3px;
+    margin: 50px 0px 0px 0px;
+    border-radius: 40px;
+
+}
+
+#main-menu {
+
+    background-image: url(IMG/questboard3.png);
+    background-size: cover;
+    width: 350px;
+    height: 790px;
+    filter: drop-shadow(0px 0px 10px black);
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nexus {
+    text-align: center;
+    height: 600px;
+    width: 200px;
+    margin: 0px 0px 50px 0px;
+}
+
+#btn-sct {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#nexus-txt {
+
+    color: goldenrod;
+    font-family: lifecraft;
+    text-shadow: black 0px 0px 5px;
+
+}
+
+
+
+#middle-sct {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#info-board {
+
+    background-image: url(IMG/Questinfoboard2.png);
+    background-size: cover;
+    width: 600px;
+    height: 320px;
+    filter: drop-shadow(0px 0px 10px black);
+
+
+}
+
+#right-sct {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#left-board {
+    background-image: url(IMG/Questinfoboard2.png);
+    background-size: cover;
+    width: 600px;
+    height: 320px;
+    filter: drop-shadow(0px 0px 10px black);
+
+
+}
+
+
+#quest-btn {
+
+    text-decoration: none;
+    background-image: url(IMG/btn.png);
+    width: 100px;
+    height: 50px;
+    font-family: lifecraft;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+}
+
+#quest-btn:hover {
+
+
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+
+    }
+
+#quest-btn:active {
+
+    transform: scale(0.96 );
+}
